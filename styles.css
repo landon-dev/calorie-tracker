@@ -1,0 +1,50 @@
+*, *::before, *::after {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: white;
+}
+
+body {
+    background: linear-gradient(to right, rgb(150, 20, 20), rgb(80, 20, 80));
+}
+
+.content {
+    display: grid;
+    width: 30%;
+    height: 13.7vh;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .40);
+}
+
+.input {
+    border: 10px;
+    border-color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .50)
+}
+
+.buttons {
+    border: none;
+    width: 100px;
+    height: 32px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .50);
+}
+
+.buttons:hover {
+    background: rgba(255, 255, 255, .50);
+}
+
+#list
+{
+    border: none;
+    padding: 5px 5px 5px 10px;
+    border-color: white;
+    width: 200px;
+    border-radius: 10px;
+}
